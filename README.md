@@ -11,7 +11,7 @@ Proyek ini adalah tugas individu: modifikasi aplikasi hasil praktikum menjadi ap
 <img width="697" height="465" alt="image" src="https://github.com/user-attachments/assets/629d4b53-26db-4bf5-b42c-cf2fdc303b6e" />
 
 <img width="918" height="625" alt="image" src="https://github.com/user-attachments/assets/121d16a2-135f-450a-b511-f0c9eef8ea04" />
-Fitur
+
 
 # Fitur
 1. Form tambah produk — kode produk (terisi otomatis PRD-001, PRD-002, … dan masih bisa diubah), nama, kategori (Makanan / Minuman), harga, serta foto produk.
