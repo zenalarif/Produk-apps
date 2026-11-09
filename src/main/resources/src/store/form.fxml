@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kelas_controller.FormController">
+   <padding>
+      <Insets bottom="28.0" left="32.0" right="32.0" top="40.0" />
+   </padding>
+
+   <VBox maxWidth="460.0" spacing="10.0" styleClass="kartu">
+      <Label styleClass="judul-halaman" text="Tambah Produk" />
+
+      <Label styleClass="label-field" text="Kode Produk" />
+      <TextField fx:id="txtKode" />
+
+      <Label styleClass="label-field" text="Nama Produk" />
+      <TextField fx:id="txtNama" promptText="contoh: Kopi Susu Aren" />
+
+      <Label styleClass="label-field" text="Kategori" />
+      <ComboBox fx:id="cmbKategori" maxWidth="Infinity" promptText="Pilih kategori" />
+
+      <Label styleClass="label-field" text="Harga (Rp)" />
+      <TextField fx:id="txtHarga" promptText="contoh: 18000" />
+
+      <Label styleClass="label-field" text="Foto Produk " />
+      <HBox alignment="CENTER_LEFT" spacing="14.0">
+         <StackPane maxHeight="110.0" maxWidth="110.0" minHeight="110.0" minWidth="110.0" prefHeight="110.0" prefWidth="110.0" styleClass="foto-placeholder">
+            <ImageView fx:id="imgPreview" fitHeight="110.0" fitWidth="110.0" preserveRatio="true" />
+         </StackPane>
+         <VBox spacing="8.0">
+            <HBox spacing="8.0">
+               <Button onAction="#onPilihGambar" styleClass="tombol-sekunder" text="Pilih Gambar..." />
+               <Button onAction="#onHapusGambar" styleClass="tombol-sekunder" text="Hapus" />
+            </HBox>
+            <Label fx:id="lblNamaFile" styleClass="label-field" />
+         </VBox>
+      </HBox>
+
+      <Label fx:id="lblError" styleClass="error" wrapText="true" />
+
+      <HBox alignment="CENTER_RIGHT" spacing="10.0">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+         <Button onAction="#onLihatDaftar" styleClass="tombol-sekunder" text="Batal" />
+         <Button defaultButton="true" onAction="#onSimpan" styleClass="tombol-utama" text="Simpan" />
+      </HBox>
+   </VBox>
+</VBox>
