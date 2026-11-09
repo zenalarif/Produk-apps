@@ -5,11 +5,11 @@ Aplikasi desktop sederhana untuk mencatat produk toko, dibuat dengan Java dan Ja
 Proyek ini adalah tugas individu: modifikasi aplikasi hasil praktikum menjadi aplikasi pencatatan produk toko, dengan struktur dan pola kode (FXML + controller + navigator) yang sama.
 
 # Tampilan 
-Tambah produk
+
 <img width="540" height="679" alt="image" src="https://github.com/user-attachments/assets/abcb40a4-9503-479d-ae31-108ab2d68d2d" />
-Daftar Produk
+
 <img width="697" height="465" alt="image" src="https://github.com/user-attachments/assets/629d4b53-26db-4bf5-b42c-cf2fdc303b6e" />
-Detail Produk
+
 <img width="918" height="625" alt="image" src="https://github.com/user-attachments/assets/121d16a2-135f-450a-b511-f0c9eef8ea04" />
 Fitur
 
